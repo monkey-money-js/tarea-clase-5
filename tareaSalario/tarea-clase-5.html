@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea clase 5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tarea-clase-5.css'>
+</head>
+<body>
+    <h1 id='mi-titulo'>Tarea 1 de clase 5.</h1>
+    <p>Crear un formulario donde un usuario pueda ingresar su salario anual.
+    Cuando el usuario haga click en el botón "calcular", mostrar el salario mensual
+    en una caja de texto deshabilitada.</p>
+    <form>
+        <label>Ingrese su sueldo: </label>
+        <input type='number' id='sueldo-usuario' placeholder="Ingresar sueldo anual." />
+        <button type='button' id='boton-calcular-sueldo'>Calcular sueldo anual.</button>
+
+        <div id='resultado' class='oculto'>
+            <label>Tu sueldo mensual es de: </label>
+            <input type='number' disabled id='salario-mensual' />
+        </div>
+    </form>
+
+    <script src='tarea-clase-5.js'></script>
+</body>
+</html>

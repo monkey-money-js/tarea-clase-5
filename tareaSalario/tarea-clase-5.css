@@ -1,0 +1,19 @@
+*{
+    background-color: blueviolet;
+}
+
+body{
+    color: white;
+}
+
+::placeholder{
+    color: black;
+}
+
+.oculto{
+    display: none;
+}
+
+input{
+    background-color: white;
+}
