@@ -15,7 +15,6 @@ $botonCalcular.onclick = function()
     // código que se ejecuta cuando le hagan click a este elemento...
     return false;
 }
-*/
 
 //TAREA: completar tareas/clase-5/index.html para que incluya tarea-clase-5.js
 //TAREA: crear un formulario donde un usuario pueda ingresar su salario anual.
@@ -29,7 +28,6 @@ $botonCalcular.onclick = function()
 // mostrar toda la información junta en un campo de texto
 // Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
 
-/*
 Ejemplo form:
   <form id="entrada-bar" onsubmit="return false;">
     <input type="text" placeholder="Ingresá tu nombre" id="nombre-usuario"/>
@@ -38,8 +36,6 @@ Ejemplo form:
   </form>
 
   <div id="resultado">Hola</div>
-*
-* */
 
 //TAREA: En otro archivo distinto,
 // Por cada clase de r/argentina programa existente, vamos a pedir:
@@ -56,3 +52,4 @@ Ejemplo form:
 // 2. obtener el número más pequeño y mostrarlo en un <em> pre-creado con el texto "El número más pequeño es..."
 // 3. obtener el número más grande y mostrarlo en un <em> pre-creado con el texto "El número más grande es..."
 // 4. obtener el número que más se repite y mostrarlo en un <em> pre-creado con el texto "El número más frecuente es..."
+*/
