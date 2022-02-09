@@ -20,7 +20,7 @@ function calcularTiempo(){
     let totalMinutos = 0;
     for (let i=0; i<5; i++){
         totalMinutos += Number(arrayMinutos[i].value);
-        if (totalMinutos > 60){
+        if (totalMinutos > 59){
             totalHoras++;
             totalMinutos -= 60;
         }
@@ -29,7 +29,7 @@ function calcularTiempo(){
     let totalSegundos = 0;
     for (let i=0; i<5; i++){
         totalSegundos += Number(arraySegundos[i].value);
-        if (totalSegundos > 60){
+        if (totalSegundos > 59){
             totalMinutos++;
             totalSegundos -= 60;
         }
