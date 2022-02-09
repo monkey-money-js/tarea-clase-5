@@ -1,15 +1,13 @@
 const $botonSueldo = document.querySelector('#boton-calcular-sueldo');
 $botonSueldo.onclick = function(event){
-    const $sueldoUsuario = document.querySelector('#sueldo-usuario');
-    const sueldoUsuario = Number($sueldoUsuario.value);
-    mostrarSueldoMensual(sueldoUsuario);
     event.preventDefault();
+    const sueldoUsuario = Number(document.querySelector('#sueldo-usuario').value);
+    mostrarSueldoMensual(sueldoUsuario);
 }
 
 function mostrarSueldoMensual(sueldoAnual){
-    const sueldoMensual = sueldoAnual / 12;
-    
+    const mesesEnUnAnio = 12;
+    const sueldoMensual = sueldoAnual / mesesEnUnAnio;
     document.querySelector('#salario-mensual').value = sueldoMensual;
     document.querySelector('#resultado').className = '';
-    
 }
